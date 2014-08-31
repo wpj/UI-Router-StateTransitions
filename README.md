@@ -10,4 +10,4 @@ Sliding animation between application state using [UI-Router](https://github.com
 
 ###Demo
 
-[Plunkr](http://embed.plnkr.co/fyGPr9/preview) (normally you would see the URL update as you're navigating between states, but Plunkr uses iframes to display content)
+[Plunkr](http://embed.plnkr.co/fyGPr9/preview) (normally you would see the URL update as you're navigating between states, but Plunkr uses iframes to display content, so I put back buttons into the demo example)
