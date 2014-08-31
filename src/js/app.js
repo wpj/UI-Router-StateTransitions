@@ -1,4 +1,4 @@
-angular.module('homepage', ['app.controllers', 'app.directives', 'app.services', 'ui.router', 'ngAnimate'])
+angular.module('pagetransitions', ['app.controllers', 'app.directives', 'app.services', 'ui.router', 'ngAnimate'])
 
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   $stateProvider
