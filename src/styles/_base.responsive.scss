@@ -1,0 +1,14 @@
+@media screen and (max-width: 46.5em) {
+  .bl-content,
+  .bl-box {
+    font-size: 75%;
+  }
+
+  .bl-expand .bl-box {
+    height: 130px;
+  }
+
+  .bl-content > ul li {
+    width: 40%;
+  }
+}

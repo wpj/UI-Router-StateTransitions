@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "authors": [
+    "wpj"
+  ],
+  "description": "WPJ's homepage",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "modernizr": "~2.8.3",
+    "angular-ui-router": "~0.2.11",
+    "angular-animate": "~1.2.23",
+    "fontawesome": "~4.2.0"
+  }
+}

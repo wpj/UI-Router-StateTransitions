@@ -1,0 +1,51 @@
+// box layout animations
+
+[ui-view].bl-slide.ng-enter, [ui-view].bl-slide.ng-leave {
+  @include transition(all 0.45s ease-in-out);
+}
+
+[ui-view].bl-slide.ng-enter {
+
+  &.left {
+    opacity: 0.5;
+    left: 100%;
+  }
+  
+  &.right {
+    right: 100%;
+  }
+}
+
+[ui-view].bl-slide.ng-enter-active {
+
+  &.left {
+    opacity: 1;
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}
+
+[ui-view].bl-slide.ng-leave {
+
+  &.left {
+    right: 0;
+  }
+
+  &.right {
+    left: 0;
+  }
+}
+
+[ui-view].bl-slide.ng-leave-active {
+
+  &.left {
+    right: 100%;
+  }
+
+  &.right {
+    left: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+// landing page box styles
+
+.about {
+  background: $about;
+  top: 0;
+  left: 0;
+}
+
+.work {
+  background: $work;
+  top: 0;
+  left: 50%;
+}
+
+.media {
+  background: $media;
+  top: 50%;
+  left: 0;
+}
+
+.contact {
+  background: $contact;
+  top: 50%;
+  left: 50%;
+}
+
+.bl-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  
+  // Centering with flexbox
+  @include display(flex);
+  @include flex-direction(row);
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+  @include align-items(center);
+
+  h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @include transition(all 0.2s ease-in-out);
+  }
+}
+
+.no-touch .bl-box:hover h2 {
+  @include transform(translateY(-15px));
+}

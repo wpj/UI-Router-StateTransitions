@@ -1,0 +1,9 @@
+.bl-main {
+  @extend .container; // found in _base.scss
+}
+
+section.box-header {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
